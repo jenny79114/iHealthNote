@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		BA6E96C1243C67C40086C30E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6E96C0243C67C40086C30E /* AppDelegate.swift */; };
 		BA6E96C3243C67C40086C30E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6E96C2243C67C40086C30E /* SceneDelegate.swift */; };
-		BA6E96C5243C67C40086C30E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6E96C4243C67C40086C30E /* ViewController.swift */; };
 		BA6E96C8243C67C40086C30E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA6E96C6243C67C40086C30E /* Main.storyboard */; };
 		BA6E96CA243C67C90086C30E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA6E96C9243C67C90086C30E /* Assets.xcassets */; };
 		BA6E96CD243C67C90086C30E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA6E96CB243C67C90086C30E /* LaunchScreen.storyboard */; };
+		BAF26E7F244EDF2300FC531A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF26E7E244EDF2300FC531A /* ViewController.swift */; };
+		BAF26E81244EDF7F00FC531A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF26E80244EDF7F00FC531A /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BA6E96BD243C67C40086C30E /* iHealthNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iHealthNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA6E96C0243C67C40086C30E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA6E96C2243C67C40086C30E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BA6E96C4243C67C40086C30E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BA6E96C7243C67C40086C30E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BA6E96C9243C67C90086C30E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA6E96CC243C67C90086C30E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA6E96CE243C67C90086C30E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAF26E7E244EDF2300FC531A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BAF26E80244EDF7F00FC531A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				BA6E96C0243C67C40086C30E /* AppDelegate.swift */,
 				BA6E96C2243C67C40086C30E /* SceneDelegate.swift */,
-				BA6E96C4243C67C40086C30E /* ViewController.swift */,
 				BA6E96C6243C67C40086C30E /* Main.storyboard */,
 				BA6E96C9243C67C90086C30E /* Assets.xcassets */,
 				BA6E96CB243C67C90086C30E /* LaunchScreen.storyboard */,
 				BA6E96CE243C67C90086C30E /* Info.plist */,
+				BAF26E7E244EDF2300FC531A /* ViewController.swift */,
+				BAF26E80244EDF7F00FC531A /* MainViewController.swift */,
 			);
 			path = iHealthNote;
 			sourceTree = "<group>";
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA6E96C5243C67C40086C30E /* ViewController.swift in Sources */,
+				BAF26E7F244EDF2300FC531A /* ViewController.swift in Sources */,
 				BA6E96C1243C67C40086C30E /* AppDelegate.swift in Sources */,
 				BA6E96C3243C67C40086C30E /* SceneDelegate.swift in Sources */,
+				BAF26E81244EDF7F00FC531A /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
